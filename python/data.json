@@ -1,0 +1,47 @@
+{
+ "powerPlants" : [
+   {
+    "name" : "Parque Eólico Arauco",
+    "provinz" : "La Rioja",
+    "coordinates" : [ -28.550027, 66.819562 ],
+    "generatedPower" : 25.2,
+    "plantType" : "Eólica"
+  },
+  {
+    "name" : "Parque Eólico Loma Blanca",
+    "provinz" : "Chubut",
+    "coordinates" : [ -43.273831, 65.326612 ],
+    "generatedPower" : 50,
+    "plantType" : "Eólica"
+  },
+  {
+    "name" : "Parque Solar Fotovoltaico Cañada Onda",
+    "provinz" : "San Juan",
+    "coordinates" : [ -32.103783, 68.845612 ],
+    "generatedPower" : 15,
+    "plantType" : "Solar"
+  }],
+
+  "powerDemand" : [{ 
+    "zoneName" : "Area Metropolitana de Buenos Aires",
+    "provinz" : "Buenos Aires",
+    "city" :"CABA",
+    "coordinates" : [ -34.603720, -58.381656 ],
+    "last24hsDemand" : 8000 
+  },
+  { 
+    "zoneName" : "Gran Rosario",
+    "provinz" : "Santa Fe",
+    "city" : "Rosario",
+    "coordinates" : [ -32.952284, -60.632242 ],
+    "last24hsDemand" : 3000 
+  },
+  { 
+    "zoneName" : "NOA",
+    "provinz" : "Jujuy, Salta, Catamarca, Tucumán, Santiago del Estero, La Rioja",
+    "city" : "Varias",
+    "coordinates" : [ -24.804483, 65.415182 ] ,
+    "last24hsDemand" :  2200
+  }
+]
+  }
